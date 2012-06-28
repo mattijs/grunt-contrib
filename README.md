@@ -52,10 +52,10 @@ Compile Stylus files into CSS.
 In lieu of a formal style guide, take care to maintain the existing coding style. Also, add tests for any new or changed functionality and be sure to lint your code.
 
 #### Configuration
-In order to ensure a consistent configuration style, task submissions should retreive their optional parameters with the included grunt helper, [options](/gruntjs/grunt-contrib/blob/master/docs/helpers.md#options).
+In order to ensure a consistent configuration style, task submissions should retreive their optional parameters with grunt's built-in helper, [this.options](/cowboy/grunt/blob/wip/docs/api_task.md#this-options-grunt-task-current-options).
 
 #### Testing
-New tasks can be added to the config in `test/grunt.js`, please see existing tests for guidance.  *Currently, testing with grunt is a bit cumbersome--this will be addressed in a future release.*
+New tasks can be added to the config in `test/grunt.js`, please see existing tests for guidance.
 
 #### Running Tests
 ```bash
@@ -65,8 +65,8 @@ npm test
 ```
 
 ## Release History
-* (Until v1.0.0, this will only be updated when major or breaking changes are made)*
 
+* 2012/XX/XX - v1.0.0 - Intergration with grunt v0.4.0.
 * 2012/06/28 - v0.0.9 - Cleanup release with copy task addition (thanks @ctalkington!)
 * 2012/06/12 - v0.0.7 - Add RequireJS task.
 * 2012/06/03 - v0.0.5 - Cleanup release with zip task addition.
