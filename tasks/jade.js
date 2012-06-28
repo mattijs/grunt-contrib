@@ -6,7 +6,7 @@
  */
 
 module.exports = function(grunt) {
-  var _ = grunt.utils._;
+  var _ = grunt.util._;
 
   grunt.registerMultiTask("jade", "Compile Jade templates into HTML.", function() {
     var path = require("path");

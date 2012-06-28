@@ -6,7 +6,7 @@
  */
 
 module.exports = function(grunt) {
-  var _ = grunt.utils._;
+  var _ = grunt.util._;
 
   grunt.registerMultiTask("clean", "Clear files and folders", function() {
     var badPaths = ["*", "/", "\\"];

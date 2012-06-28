@@ -1,5 +1,4 @@
-var grunt = require("grunt"),
-    _ = grunt.utils._;
+var grunt = require("grunt");
 
 grunt.loadTasks("../tasks");
 

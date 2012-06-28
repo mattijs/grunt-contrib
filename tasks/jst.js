@@ -6,7 +6,7 @@
  */
 
 module.exports = function(grunt) {
-  var _ = grunt.utils._;
+  var _ = grunt.util._;
 
   grunt.registerMultiTask("jst", "Compile underscore templates to JST file", function() {
     var options = grunt.helper("options", this, {namespace: "JST", templateSettings: {}});

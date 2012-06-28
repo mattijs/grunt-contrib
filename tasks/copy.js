@@ -5,7 +5,7 @@
  */
 
 module.exports = function(grunt) {
-  var _ = grunt.utils._;
+  var _ = grunt.util._;
 
   grunt.registerMultiTask("copy", "Copy files into another directory.", function() {
     var options = grunt.helper("options", this, {basePath: null, stripString: null});

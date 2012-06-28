@@ -6,8 +6,8 @@
  */
 
 module.exports = function(grunt) {
-  var _ = grunt.utils._;
-  var async = grunt.utils.async;
+  var _ = grunt.util._;
+  var async = grunt.util.async;
 
   grunt.registerMultiTask("stylus", "Compile Stylus files into CSS", function() {
     var options = grunt.helper('options', this);

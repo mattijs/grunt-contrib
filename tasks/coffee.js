@@ -6,7 +6,7 @@
  */
 
 module.exports = function(grunt) {
-  var _ = grunt.utils._;
+  var _ = grunt.util._;
 
   grunt.registerMultiTask("coffee", "Compile CoffeeScript files into JavaScript", function() {
     var options = grunt.helper("options", this);
