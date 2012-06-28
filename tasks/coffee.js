@@ -9,7 +9,7 @@ module.exports = function(grunt) {
   var _ = grunt.util._;
 
   grunt.registerMultiTask("coffee", "Compile CoffeeScript files into JavaScript", function() {
-    var options = grunt.helper("options", this);
+    var options = this.options();
     var data = this.data;
 
     Object.keys(data.files).forEach(function(dest) {

@@ -11,7 +11,12 @@ module.exports = function(grunt) {
   var async = grunt.util.async;
 
   grunt.registerMultiTask("compress", "Compress files.", function() {
-    var options = grunt.helper("options", this, {mode: null, basePath: null, level: 1});
+    var options = this.options({
+      mode: null,
+      basePath: null,
+      level: 1
+    });
+
     var supported = ["zip", "tar", "tgz", "gzip"];
     var helper = options.mode + "Helper";
     var data = this.data;

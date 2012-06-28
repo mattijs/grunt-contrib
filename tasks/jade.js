@@ -11,7 +11,7 @@ module.exports = function(grunt) {
   grunt.registerMultiTask("jade", "Compile Jade templates into HTML.", function() {
     var path = require("path");
 
-    var options = grunt.helper("options", this);
+    var options = this.options();
     var data = this.data;
     var jadeData = options.data;
 

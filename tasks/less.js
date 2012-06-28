@@ -16,7 +16,7 @@ module.exports = function(grunt) {
   };
 
   grunt.registerMultiTask("less", "Compile LESS files to CSS", function() {
-    var options = grunt.helper("options", this);
+    var options = this.options();
     var data = this.data;
     var done = this.async();
 

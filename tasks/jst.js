@@ -9,7 +9,11 @@ module.exports = function(grunt) {
   var _ = grunt.util._;
 
   grunt.registerMultiTask("jst", "Compile underscore templates to JST file", function() {
-    var options = grunt.helper("options", this, {namespace: "JST", templateSettings: {}});
+    var options = this.options({
+      namespace: "JST",
+      templateSettings: {}
+    });
+
     var data = this.data;
 
     Object.keys(data.files).forEach(function(dest) {

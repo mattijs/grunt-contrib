@@ -48,10 +48,6 @@ Optimize RequireJS projects using r.js.
 #### [`stylus`](/gruntjs/grunt-contrib/blob/master/docs/stylus.md)
 Compile Stylus files into CSS.
 
-## Included Helpers
-### [`options`](/gruntjs/grunt-contrib/blob/master/docs/helpers.md#options)
-Unified options retrieval
-
 ## Contributing
 In lieu of a formal style guide, take care to maintain the existing coding style. Also, add tests for any new or changed functionality and be sure to lint your code.
 

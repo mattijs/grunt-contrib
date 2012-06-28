@@ -186,12 +186,6 @@ module.exports = function(grunt) {
           compress: true
         }
       }
-    },
-
-    options: {
-      jade: {
-        filename: "fixtures/jade/inc/"
-      }
     }
   });
 
